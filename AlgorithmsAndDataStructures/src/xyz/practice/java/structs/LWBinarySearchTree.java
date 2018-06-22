@@ -143,10 +143,10 @@ public class LWBinarySearchTree<E extends Comparable<E>, V> {
 			}
 		} else {
 			if ( parentOfNodeToRemove.left!= null && parentOfNodeToRemove.left.e.compareTo(nodeToRemove.e) == 0 ) {
-				// CASE 1: one child: if current is left child of parent, current has left or right child
+				// CASE 3: one child: if current is left child of parent, current has left or right child
 				parentOfNodeToRemove.left = nodeToRemove.left != null ? nodeToRemove.left : nodeToRemove.right;
 			} else if ( parentOfNodeToRemove.right!= null && parentOfNodeToRemove.right.e.compareTo(nodeToRemove.e) == 0 ) {
-				// CASE 1: one child: if current is right child of parent, current has left or right child
+				// CASE 3: one child: if current is right child of parent, current has left or right child
 				parentOfNodeToRemove.right = nodeToRemove.left != null ? nodeToRemove.left : nodeToRemove.right ;
 			}
 		}
