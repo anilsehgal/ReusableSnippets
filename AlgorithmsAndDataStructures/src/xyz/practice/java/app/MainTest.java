@@ -6,6 +6,8 @@ import xyz.practice.java.exception.LWStackException;
 import xyz.practice.java.exception.LWTreeException;
 import xyz.practice.java.structs.LWBinarySearchTree;
 import xyz.practice.java.structs.LWBinarySearchValueTree;
+import xyz.practice.java.structs.LWHashMap;
+import xyz.practice.java.structs.LWHashSet;
 import xyz.practice.java.structs.LWLinkedList;
 import xyz.practice.java.structs.LWQueue;
 import xyz.practice.java.structs.LWStack;
@@ -17,7 +19,44 @@ public class MainTest {
 		//linkedListTest();
 		//queueTest();
 		//bsvtTest();
-		bstTest();
+		//bstTest();
+		mapTest();
+	}
+	
+	public static void mapTest() {
+		LWHashMap<Integer, String> map = new LWHashMap<>();
+		map.put(5, "five");
+		map.put(6, "six");
+		map.put(1, "one");
+		map.put(8, "eight");
+		map.put(27, "twenty seven");
+		map.put(7, "seven");
+		map.put(18, "eighteen");
+		map.put(11, "eleven");
+		map.put(null, "null");
+		map.put(27, "twenty seven");
+		System.out.println(map.getRawData());
+		map.put(18, "new eighteen");
+		System.out.println(map.getRawData());
+		System.out.println(map.get(6));
+		System.out.println(map.get(16));
+		System.out.println(map.get(11));
+	}
+	
+	public static void setTest() {
+		LWHashSet<Integer> set = new LWHashSet<>();
+		set.add(5);
+		set.add(6);
+		set.add(1);
+		set.add(8);
+		set.add(27);
+		set.add(7);
+		set.add(18);
+		set.add(11);
+		set.add(27);
+		set.add(18);
+		System.out.println(set);
+		System.out.println(set.getRawData());
 	}
 	
 	public static void bstTest() {
