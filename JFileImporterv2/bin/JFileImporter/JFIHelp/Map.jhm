@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+<!-- Image Files -->
+  
+  <mapID target="toplevelfolder" url="images/toplevel.gif" />
+  <mapID target="category" url="images/category.gif" />
+  <mapID target="topic" url="images/topic.gif" />
+
+<!-- Topics -->
+
+  <mapID target="excel_sheet_no" url="topics/excel_sheet_no.htm" />
+  <mapID target="delimiter_char" url="topics/delimiter_char.htm" />
+  
+  <mapID target="length_table_add_field" url="topics/length_table_add_field.htm" />
+  <mapID target="length_table_remove_field" url="topics/length_table_remove_field.htm" />
+  <mapID target="length_table_modify" url="topics/length_table_modify.htm" />
+  <mapID target="length_table_finalize" url="topics/length_table_finalize.htm" />
+  
+  <mapID target="file_flavor" url="topics/file_flavor.htm" />
+  <mapID target="read_start_row" url="topics/read_start_row.htm" />
+  <mapID target="date_format" url="topics/date_format.htm" />
+  <mapID target="input_file_path" url="topics/input_file_path.htm" />
+      
+  <mapID target="database_driver" url="topics/database_driver.htm" />
+  <mapID target="database_url" url="topics/database_url.htm" />
+  <mapID target="database_username" url="topics/database_username.htm" />
+  <mapID target="database_password" url="topics/database_password.htm" />
+  <mapID target="fetch_tables" url="topics/fetch_tables.htm" />
+  <mapID target="database_tables_list" url="topics/database_tables_list.htm" />
+  <mapID target="database_column_mapper" url="topics/database_column_mapper.htm" />
+  <mapID target="duplicate_primary_key_action" url="topics/duplicate_primary_key_action.htm" />
+  <mapID target="validate_import" url="topics/validate_import.htm" />
+  <mapID target="start_import" url="topics/start_import.htm" />
+  <mapID target="save_profile" url="topics/save_profile.htm" />
+
+  <mapID target="file_display" url="topics/file_display.htm" />
+  
+  <mapID target="open_profile" url="topics/open_profile.htm" />
+  
+  <mapID target="splash_screen" url="topics/splash_screen.htm" />
+  
+  <mapID target="column_mapping" url="topics/column_mapping.htm" />
+  
+  <mapID target="import_options" url="topics/import_options.htm" />
+  
+  <mapID target="schedule_start_date" url="topics/schedule_start_date.htm" />
+  <mapID target="schedule_end_date" url="topics/schedule_end_date.htm" />
+  <mapID target="schedule_repeat_interval" url="topics/schedule_repeat_interval.htm" />
+  <mapID target="delete_imported_file" url="topics/delete_imported_file.htm" />
+  <mapID target="schedule_start_button" url="topics/schedule_start_button.htm" />
+
+  <mapID target="running_application_flow" url="topics/howto/running_application_flow.htm" />
+  <mapID target="running_scheduler_app" url="topics/howto/running_scheduler_app.htm" />
+  <mapID target="end_row" url="topics/end_row.htm" />
+  <mapID target="pre_session_cmd" url="topics/pre_session_cmd.htm" />
+  <mapID target="post_session_cmd" url="topics/post_session_cmd.htm" />
+
+</map>

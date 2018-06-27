@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+<tocitem image="toplevelfolder" text="JFileImporter Online Help">
+	<tocitem image="category" text="Components">
+		<tocitem image="category" text="File Importer">
+			<tocitem image="category" text="File Settings">
+				<tocitem image="topic" target="excel_sheet_no" text="Excel Sheet"/>
+				<tocitem image="topic" target="delimiter_char" text="Delimiter"/>			
+				<tocitem image="category" text="Fixed Length File Descripter Table">
+					<tocitem image="topic" target="length_table_add_field" text="Add Field"/>
+					<tocitem image="topic" target="length_table_remove_field" text="Remove Field"/>
+					<tocitem image="topic" target="length_table_modify" text="Modify"/>
+					<tocitem image="topic" target="length_table_finalize" text="Finalize"/>
+				</tocitem>
+				<tocitem image="topic" target="file_flavor" text="File Flavor"/>
+				<tocitem image="topic" target="read_start_row" text="Start Row"/>
+				<tocitem image="topic" target="end_row" text="End Row"/>
+				<tocitem image="topic" target="date_format" text="Date Format"/>
+				<tocitem image="topic" target="input_file_path" text="File Path"/>
+			</tocitem>
+			<tocitem image="category" text="DB Settings">
+				<tocitem image="topic" target="database_driver" text="Database Driver"/>
+				<tocitem image="topic" target="database_url" text="Database URL"/>
+				<tocitem image="topic" target="database_username" text="Database UserName"/>
+				<tocitem image="topic" target="database_password" text="Database Password"/>
+				<tocitem image="topic" target="fetch_tables" text="Fetch Tables"/>
+				<tocitem image="topic" target="database_tables_list" text="Tables List"/>
+				<tocitem image="topic" target="database_column_mapper" text="Column Mapping"/>
+				<tocitem image="topic" target="duplicate_primary_key_action" text="Duplicate Primary Key Action"/>
+				<tocitem image="topic" target="validate_import" text="Validate Import"/>
+				<tocitem image="topic" target="start_import" text="Start Import"/>
+				<tocitem image="topic" target="save_profile" text="Save Profile"/>
+			</tocitem>
+			<tocitem image="topic" target="file_display" text="File Display"/>
+			<tocitem image="category" text="Advanced Settings">
+				<tocitem image="topic" target="pre_session_cmd"  text="Pre Import Command"/>
+				<tocitem image="topic" target="post_session_cmd" text="Post Import Command"/>			
+			</tocitem>
+		</tocitem>	
+		<tocitem image="category" text="Import Scheduler">
+			<tocitem image="topic" target="open_profile" text="Open Profile"/>
+			<tocitem image="topic" target="splash_screen" text="Splash"/>
+			<tocitem image="topic" target="column_mapping" text="Column Mapping"/>
+			<tocitem image="topic" target="import_options" text="Import Options"/>
+			<tocitem image="category" text="Schedule Settings">
+				<tocitem image="topic" target="schedule_start_date" text="Schedule Start Date"/>
+				<tocitem image="topic" target="schedule_end_date" text="Schedule End Date"/>
+				<tocitem image="topic" target="schedule_repeat_interval" text="Schedule Repeat Interval"/>
+				<tocitem image="topic" target="delete_imported_file" text="Delete Imported File"/>
+				<tocitem image="topic" target="schedule_start_button" text="Start Schedule Button"/>
+			</tocitem>
+		</tocitem>
+	</tocitem>
+	<tocitem image="category" text="How To">
+		<tocitem image="topic" target="running_application_flow" text="Running The Application"/>
+		<tocitem image="topic" target="running_scheduler_app" text="Running Scheduler Application"/>
+	</tocitem>
+</tocitem>
+</toc>

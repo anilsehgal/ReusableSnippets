@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+
+<index version="1.0">
+  <indexitem target="computers" text="computer interests"/>
+  <indexitem text="favorites">
+    <indexitem target="movies" text="movies"/>
+    <indexitem target="music" text="music"/>
+  </indexitem>
+  <indexitem target="fitness" text="fitness interests"/>
+  <indexitem text="interests">
+    <indexitem target="computers" text="computers"/>
+    <indexitem target="fitness" text="fitness"/>
+  </indexitem>
+  <indexitem target="movies" text="movies, favorite"/>
+  <indexitem target="music" text="music, favorite"/>
+  <indexitem target="overview" text="overview"/>
+</index>

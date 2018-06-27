@@ -1,0 +1,2 @@
+1. in user defined primary key manipulation, if update else insert is selected and 
+   no non-primary key column is mapped, alert user.

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+  <mapID target="img.toplevelfolder" url="Images/toplevel.gif" />
+  <mapID target="img.structurepic" url="Images/structure.jpg">
+  <mapID target="img.forcespic" url="Images/forces.jpg">
+
+  <mapID target="intro" url="Topics/introduction_to_aviation.htm" />
+
+  <mapID target="aerodynamics" url="Topics/Aerodynamics/aerodynamics.htm" />
+  <mapID target="drag" url="Topics/Aerodynamics/drag.htm" />
+  <mapID target="lift" url="Topics/Aerodynamics/lift.htm" />
+  <mapID target="thrust" url="Topics/Aerodynamics/thrust.htm" />
+  <mapID target="weight" url="Topics/Aerodynamics/weight.htm" />
+
+  <mapID target="structure" url="Topics/AirplaneStructure/airplane_structure.htm" />
+  <mapID target="empennage" url="Topics/AirplaneStructure/empennage.htm" />
+  <mapID target="fuselage" url="Topics/AirplaneStructure/fuselage.htm" />
+  <mapID target="gear" url="Topics/AirplaneStructure/landing_gear.htm" />
+  <mapID target="powerplant" url="Topics/AirplaneStructure/powerplant.htm" />
+  <mapID target="wing" url="Topics/AirplaneStructure/wing.htm" />
+
+  <mapID target="environment" url="Topics/FlightEnvironment/flight_environment.htm" />
+
+  <mapID target="airports" url="Topics/FlightEnvironment/Airports/airports.htm" />
+  <mapID target="wind" url="Topics/FlightEnvironment/Airports/wind_direction_indicators.htm" />
+
+  <mapID target="runtaxi" url="Topics/FlightEnvironment/Airports/RunwaysAndTaxiways/runways_and_taxiways.htm" />
+  <mapID target="markings" url="Topics/FlightEnvironment/Airports/RunwaysAndTaxiways/markings.htm" />
+  <mapID target="runways" url="Topics/FlightEnvironment/Airports/RunwaysAndTaxiways/runways.htm" />
+  <mapID target="taxiways" url="Topics/FlightEnvironment/Airports/RunwaysAndTaxiways/taxiways.htm" />
+
+  <mapID target="pop.jhhelpid" url="Popups/jhhelpid.htm" />
+  <mapID target="pop.structurepic" url="Popups/structure.htm" />
+  <mapID target="pop.jhtoc" url="Popups/jhtoc.htm" />
+  <mapID target="pop.equilibrium" url="Popups/equilibrium.htm" />
+  <mapID target="pop.fourforces" url="Popups/fourforces.htm" />
+
+  <mapID target="sec.taxiwaymarkings" url="SecondaryWindows/taxiway_markings.htm" />
+  <mapID target="sec.runwaymarkings" url="SecondaryWindows/runway_markings.htm" />
+
+</map>

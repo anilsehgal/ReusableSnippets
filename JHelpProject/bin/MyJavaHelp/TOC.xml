@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+  <tocitem image="toplevelfolder" target="overview" text="My JavaHelp System">
+    <tocitem text="Interests">
+      <tocitem target="fitness" text="Fitness"/>
+      <tocitem target="computers" text="Computers"/>
+    </tocitem>
+    <tocitem text="Favorite Movies">
+      <tocitem target="movies" text="Favorite Movies"/>
+    </tocitem>
+    <tocitem text="Favorite Music">
+      <tocitem target="music" text="Favorite Music"/>
+    </tocitem>
+  </tocitem>
+</toc>
