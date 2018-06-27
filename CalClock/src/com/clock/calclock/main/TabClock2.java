@@ -269,7 +269,7 @@ public class TabClock2 {
 
 		final JXPanel aboutPanel = new JXPanel();
 		final JLabel l13 = new JLabel();
-		String text = "Developed By: Ritika (Roll No: 0818CS121110)";
+		String text = "Developed By: Anil Sehgal";
 
 		l13.setText(text);
 
