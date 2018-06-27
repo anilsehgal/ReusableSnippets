@@ -202,7 +202,7 @@ public class RotatePanel2 extends JPanel {
 	public boolean isHelpDirectoryAvailable(){
 		boolean helpPresent = false;
 	//	File file = new File(helpDir);
-		String currentDir = System.getProperty("user.home") + File.separatorChar + "My Documents" + File.separatorChar + "JFileImporter";		
+		String currentDir = "C:\\Users\\anils\\Documents\\JFileImporter";		
 		File file = new File(currentDir + "\\JFileImporter\\JFIHelp\\HelpSet.hs");
 
 		if(file.exists()){
