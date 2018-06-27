@@ -88,7 +88,7 @@ public class ImporterMenuBar extends JMenuBar{
 		
 		try {
 			//	InputStream stream = this.getClass().getClassLoader().getResourceAsStream("/JFileImporter/JFIHelp/HelpSet.hs");
-			String currentDir = System.getProperty("user.home") + File.separatorChar + "My Documents" + File.separatorChar + "JFileImporter";		
+			String currentDir = "C:\\Users\\anils\\Documents\\JFileImporter";		
 			File file = new File(currentDir + "\\JFileImporter\\JFIHelp\\HelpSet.hs");
 				
 			    URL hsURL = file.toURL();

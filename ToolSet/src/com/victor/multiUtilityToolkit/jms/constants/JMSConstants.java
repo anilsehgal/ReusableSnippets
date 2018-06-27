@@ -1,7 +1,7 @@
 package com.victor.multiUtilityToolkit.jms.constants;
 
 public class JMSConstants {
-	public static final String JMS_SERVER_FILE_PATH = "D://serverConfig.txt";
+	public static final String JMS_SERVER_FILE_PATH = "C://serverConfig.txt";
 	public static final String JMS_MESSAGE_ID = "JMSMessageID";
 	public static final String EQUALS = "=";
 	public static final String SINGLE_QUOTE = "'";

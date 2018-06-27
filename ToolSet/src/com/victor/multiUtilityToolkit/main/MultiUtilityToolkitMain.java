@@ -71,6 +71,7 @@ public class MultiUtilityToolkitMain extends JFrame{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		pack();
 		setVisible(true);
+		System.out.println("done");
 	}
 	public static void main(String[] args){
 		try{
@@ -96,6 +97,7 @@ public class MultiUtilityToolkitMain extends JFrame{
 	        preWindow.setVisible(false);
 		}catch(Exception e){
 			try {
+				e.printStackTrace();
 				UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 				JOptionPane.showMessageDialog(multiUtilityToolkitMain, e+"\n"+"Please contact Technical Support", "Exception caught while starting MultiUtility Toolkit", JOptionPane.ERROR_MESSAGE);
 			} catch (Exception e1) {

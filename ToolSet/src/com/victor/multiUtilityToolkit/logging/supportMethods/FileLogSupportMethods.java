@@ -15,7 +15,7 @@ public class FileLogSupportMethods {
 		String line = null;
 		FileWriter logConfigFileWriter = null;
 		List<String> list = new ArrayList<String>();
-		File logFile = new File("D://log4j.xml");
+		File logFile = new File("C://log4j.xml");
 		if(!logFile.exists()){
 			logFile.createNewFile();
 			InputStream is = FileLogSupportMethods.class.getResourceAsStream("/config/log4j.xml");
