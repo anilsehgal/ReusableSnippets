@@ -160,12 +160,14 @@ public class RotatePanel2 extends JPanel {
 				statusBar.setString("Validating Help..");
 				if(!isHelpDirectoryAvailable()){
 					statusBar.setString("Help Directory Not Found!!");
-					JOptionPane.showMessageDialog(null, "Help File Set not found at: "+helpDir.replaceAll("\\", "/"), "HelpSet not Found",JOptionPane.ERROR_MESSAGE);
-					System.exit(1);
+					//JOptionPane.showMessageDialog(null, "Help File Set not found at: "+helpDir.replaceAll("\\", "/"), "HelpSet not Found",JOptionPane.ERROR_MESSAGE);
+					//System.exit(1);
+				} else {
+					statusBar.setString("HelpSet Found..");
 				}
 			}else if(i > 45 && i <= 58){
 				statusBar.setValue(35);
-				statusBar.setString("HelpSet Found..");
+				
 			}else if(i > 43 && i <= 45){
 				statusBar.setValue(45);
 				statusBar.setString("Verifying Theme..");
@@ -202,8 +204,8 @@ public class RotatePanel2 extends JPanel {
 	public boolean isHelpDirectoryAvailable(){
 		boolean helpPresent = false;
 	//	File file = new File(helpDir);
-		String currentDir = "C:\\Users\\anils\\Documents\\JFileImporter";		
-		File file = new File(currentDir + "\\JFileImporter\\JFIHelp\\HelpSet.hs");
+		String helpsetPath="C:\\JFileImporter\\JFIHelp\\HelpSet.hs";		
+		File file = new File(helpsetPath);
 
 		if(file.exists()){
 			helpPresent = true;

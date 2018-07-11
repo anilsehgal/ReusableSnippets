@@ -81,35 +81,33 @@ public class ImporterMenuBar extends JMenuBar{
 		openProfileItem = new JMenuItem("Open Profile",profileIcon);
 		minimizeItem = new JMenuItem("Hide to Tray",viewIcon);
 		openSchedulerItem = new JMenuItem("Open Scheduler",schedIcon);
-		String userHome = null;
 
 
-		
-		
+		String helpsetPath="C:\\JFileImporter\\JFIHelp\\HelpSet.hs";
+		helpMenu = new JMenu("Help");
+	    
 		try {
 			//	InputStream stream = this.getClass().getClassLoader().getResourceAsStream("/JFileImporter/JFIHelp/HelpSet.hs");
-			String currentDir = "C:\\Users\\anils\\Documents\\JFileImporter";		
-			File file = new File(currentDir + "\\JFileImporter\\JFIHelp\\HelpSet.hs");
+			File file = new File(helpsetPath);
 				
 			    URL hsURL = file.toURL();
 		        hs = new HelpSet(null, hsURL);
+		        helpItemTOC = new JMenuItem("Contents",helpIcon);
+			    helpMenu.add(helpItemTOC);
+			    hb = hs.createHelpBroker();
+			    ActionListener helper = new CSH.DisplayHelpFromSource(hb);
+			    helpItemTOC.addActionListener(helper);
 		     }
 		     catch (Exception ee) {
-
-		    	 JOptionPane.showMessageDialog(null, "Error Starting Application, Help File not found at "+userHome+": Exception: "+ee, "Application Could not be Started", JOptionPane.ERROR_MESSAGE);
-		       System.exit(0);
+		    	 
+		    	// JOptionPane.showMessageDialog(null, "Help File not found at "+helpsetPath+": Exception: "+ee, "Help will not work", JOptionPane.ERROR_MESSAGE);
+		    	 //System.exit(0);
 		     }
-		     // create HelpBroker from HelpSet
-		     hb = hs.createHelpBroker();
-		     // enable function key F1
-		     //hb.enableHelpKey(getRootPane(), "overview", hs);
-		    helpMenu = new JMenu("Help");
-		    helpItemTOC = new JMenuItem("Contents",helpIcon);
-		    aboutItem = new JMenuItem("About",aboutIcon);
-		    helpMenu.add(helpItemTOC);
-		    helpMenu.add(aboutItem);
-		    ActionListener helper = new CSH.DisplayHelpFromSource(hb);
-		    helpItemTOC.addActionListener(helper);
+			aboutItem = new JMenuItem("About",aboutIcon);
+			helpMenu.add(aboutItem);
+		    
+		    
+		    
 		//action listeners
 		exitItem.addActionListener(new ActionListener() {
 			
