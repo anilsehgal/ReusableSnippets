@@ -107,7 +107,7 @@ public class ImporterMenuBar extends JMenuBar{
 			helpMenu.add(aboutItem);
 		    
 		    
-		    
+		     
 		//action listeners
 		exitItem.addActionListener(new ActionListener() {
 			

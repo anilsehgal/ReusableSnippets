@@ -152,7 +152,7 @@ public class RotatePanel2 extends JPanel {
 		f.setVisible(true);
 
 		while(i > 0){
-			rotatePanel.rotate();
+			rotatePanel.rotate(); 
 			if(i > 60){
 				statusBar.setString("Starting..");
 			}else if(i > 58 && i <= 60){
